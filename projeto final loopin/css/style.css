@@ -1,0 +1,31 @@
+
+
+.hero {
+height: 400px;
+}
+
+.hero-img {
+background: transparent url(https://useplink.com/assets/images/frontpage/payment-methods_copy_2_2x-1440x0-c-default.png) repeat-x 50% 0;
+-webkit-animation: infinite-shift-left 500s linear;
+      animation: infinite-shift-left 500s linear;
+      margin-top: 10px;
+}
+
+@-webkit-keyframes infinite-shift-left {
+0% {
+background-position: 50000px;
+}
+100% {
+background-position: 0;
+}
+}
+
+@keyframes infinite-shift-left {
+0% {
+background-position: 50000px;
+}
+100% {
+background-position: 0;
+}
+}
+ 
